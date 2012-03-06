@@ -22,7 +22,10 @@ SOCIAL = (
           ('You can add links in your config file', '#'),
          )
 
+DISPLAY_PAGES_ON_MENU = False
 DEFAULT_PAGINATION = False
 
-
-    
+STATIC_PATHS = ['data']
+OUTPUT_PATH = '_output/'
+PAGE_PATHS = ['pages',]
+ARTICLE_PATHS = ['news',]

@@ -3,8 +3,8 @@ PELICAN=pelican
 PELICANOPTS=None
 
 BASEDIR=$(PWD)
-INPUTDIR=$(BASEDIR)/src
-OUTPUTDIR=$(BASEDIR)/output
+INPUTDIR=$(BASEDIR)/
+OUTPUTDIR=$(BASEDIR)/_output
 CONFFILE=$(BASEDIR)/pelican.conf.py
 
 FTP_HOST=localhost
@@ -13,7 +13,7 @@ FTP_TARGET_DIR=/
 
 SSH_HOST=inneos.org
 SSH_USER=data
-SSH_TARGET_DIR=/var/www
+SSH_TARGET_DIR=/home/data/websites/static/ebenezer-bf.org
 
 DROPBOX_DIR=~/Dropbox/Public/
 
