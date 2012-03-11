@@ -11,7 +11,7 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=inneos.org
+SSH_HOST=srvb
 SSH_USER=data
 SSH_TARGET_DIR=/home/data/websites/static/ebenezer-bf.org
 
@@ -43,7 +43,7 @@ dropbox_upload: $(OUTPUTDIR)/index.html
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
 
 ssh_upload: $(OUTPUTDIR)/index.html
-	scp -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+	rsync -avz -e ssh --delete --exclude=.git $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 ftp_upload: $(OUTPUTDIR)/index.html
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUT_DIR)/* $(FTP_TARGET_DIR) ; quit"
