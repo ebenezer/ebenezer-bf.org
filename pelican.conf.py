@@ -27,5 +27,7 @@ DEFAULT_PAGINATION = False
 
 STATIC_PATHS = ['data']
 OUTPUT_PATH = '_output/'
-PAGE_PATHS = ['pages',]
-ARTICLE_PATHS = ['news',]
+PAGE_DIR = 'pages'
+ARTICLE_DIR = 'news'
+
+THEME = './theme/'
