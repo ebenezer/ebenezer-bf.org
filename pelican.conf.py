@@ -121,7 +121,7 @@ SOCIAL = (
           ('You can add links in your config file', '#'),
          )
 
-DISPLAY_PAGES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
 DEFAULT_PAGINATION = False
 
 STATIC_PATHS = ['data']
