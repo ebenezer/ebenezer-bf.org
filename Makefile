@@ -17,6 +17,9 @@ SSH_TARGET_DIR=/home/data/websites/static/ebenezer-bf.org
 
 DROPBOX_DIR=~/Dropbox/Public/
 
+LESSC=$(BASEDIR)/less.js/bin/lessc
+
+
 help:
 	@echo 'Makefile for a pelican Web site                                       '
 	@echo '                                                                      '
@@ -28,6 +31,10 @@ help:
 	@echo '   dropbox_upload                   upload the web site using Dropbox '
 	@echo '                                                                      '
 
+
+less:
+	$(LESSC) --compress $(BASEDIR)/theme/static/swatchmaker.less $(OUTPUTDIR)/theme/bootstrap.min.css
+	@echo 'Done'
 
 html: clean $(OUTPUTDIR)/index.html
 	@echo 'Done'
@@ -43,7 +50,7 @@ dropbox_upload: $(OUTPUTDIR)/index.html
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
 
 ssh_upload: $(OUTPUTDIR)/index.html
-	rsync -Cavz -e ssh --delete $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+	rsync -Cavz -e ssh --delete --exclude="theme/swatch" --exclude="theme/bootstrap" $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 ftp_upload: $(OUTPUTDIR)/index.html
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUT_DIR)/* $(FTP_TARGET_DIR) ; quit"
