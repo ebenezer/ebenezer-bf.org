@@ -36,6 +36,12 @@ less:
 	$(LESSC) --compress $(BASEDIR)/theme/static/swatchmaker.less $(OUTPUTDIR)/theme/bootstrap.min.css
 	@echo 'Done'
 
+js:
+	mkdir -p $(OUTPUTDIR)/theme/bootstrap/js/
+	cp $(BASEDIR)/theme/static/bootstrap/js/bootstrap-dropdown.js $(OUTPUTDIR)/theme/bootstrap/js/
+	cp $(BASEDIR)/theme/static/bootstrap/js/bootstrap-collapse.js $(OUTPUTDIR)/theme/bootstrap/js/
+	@echo 'Done'
+
 html: clean $(OUTPUTDIR)/index.html
 	@echo 'Done'
 
