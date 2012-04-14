@@ -17,6 +17,9 @@ SSH_TARGET_DIR=/home/data/websites/static/ebenezer-bf.org
 
 DROPBOX_DIR=~/Dropbox/Public/
 
+LIB_DIR=$(BASEDIR)/theme/lib
+BS_SRCDIR=$(LIB_DIR)/bootstrap
+BS_DSTDIR=$(OUTPUTDIR)/theme/bootstrap
 LESSC=$(BASEDIR)/less.js/bin/lessc
 
 
@@ -31,18 +34,17 @@ help:
 	@echo '   dropbox_upload                   upload the web site using Dropbox '
 	@echo '                                                                      '
 
-
-less:
-	$(LESSC) --compress $(BASEDIR)/theme/static/swatchmaker.less $(OUTPUTDIR)/theme/bootstrap.min.css
+bootstrap:
+	mkdir -p $(BS_DSTDIR)/img
+	mkdir -p $(BS_DSTDIR)/css
+	mkdir -p $(BS_DSTDIR)/js
+	cp $(BS_SRCDIR)/img/* $(BS_DSTDIR)/img/
+	$(LESSC) --compress $(LIB_DIR)/swatchmaker.less $(BS_DSTDIR)/css/bootstrap.min.css
+	cp $(BS_SRCDIR)/js/bootstrap-dropdown.js $(BS_DSTDIR)/js/
+	cp $(BS_SRCDIR)/js/bootstrap-collapse.js $(BS_DSTDIR)/js/
 	@echo 'Done'
 
-js:
-	mkdir -p $(OUTPUTDIR)/theme/bootstrap/js/
-	cp $(BASEDIR)/theme/static/bootstrap/js/bootstrap-dropdown.js $(OUTPUTDIR)/theme/bootstrap/js/
-	cp $(BASEDIR)/theme/static/bootstrap/js/bootstrap-collapse.js $(OUTPUTDIR)/theme/bootstrap/js/
-	@echo 'Done'
-
-html: clean $(OUTPUTDIR)/index.html
+html: clean $(OUTPUTDIR)/index.html bootstrap
 	@echo 'Done'
 
 $(OUTPUTDIR)/%.html:
@@ -56,7 +58,7 @@ dropbox_upload: $(OUTPUTDIR)/index.html
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
 
 ssh_upload: $(OUTPUTDIR)/index.html
-	rsync -Cavz -e ssh --delete --exclude="theme/swatch" --exclude="theme/bootstrap" $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+	rsync -Cavz -e ssh --delete $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 ftp_upload: $(OUTPUTDIR)/index.html
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUT_DIR)/* $(FTP_TARGET_DIR) ; quit"
