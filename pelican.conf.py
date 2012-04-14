@@ -126,6 +126,8 @@ OUTPUT_PATH = '_output/'
 PAGE_DIR = 'pages'
 ARTICLE_DIR = 'news'
 
+ARTICLE_URL = 'actualites/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'actualites/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 PAGE_URL = '{category}/{slug}/'
 PAGE_SAVE_AS = '{category}/{slug}/index.html'
 
