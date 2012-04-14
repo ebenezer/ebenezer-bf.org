@@ -11,8 +11,6 @@ h3 { margin-top: 2.5em; }
 .content-title { margin-bottom: 30px; }
 .article a:hover { text-decoration: none; } 
 
-
-
 /* Styling for the "other entries" section */
 /* Metadata */
 .well.small { padding: 6px 6px 4px; }
@@ -48,3 +46,15 @@ h3 { margin-top: 2.5em; }
 .social a[href*='rss.xml']:before {content: url('./images/icons/rss.png'); margin-right: 2px; vertical-align: -3px;}
 .social a[href*='stackoverflow.com']:before {content: url('./images/icons/stackoverflow.png'); margin-right: 2px; vertical-align: -3px;}
 .social a[href*='twitter.com']:before {content: url('./images/icons/twitter.png'); margin-right: 2px; vertical-align: -3px;}
+
+/* Navbar override */
+.navbar-inner {
+  padding-right: 0;
+}
+.navbar .nav > li > a {
+  border-right: 0px;
+}
+.navbar .brand i {
+  margin-top:5px;
+  vertical-align:top;
+}
