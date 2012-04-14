@@ -129,4 +129,8 @@ OUTPUT_PATH = '_output/'
 PAGE_DIR = 'pages'
 ARTICLE_DIR = 'news'
 
+PAGE_URL = '{category}/{slug}/'
+PAGE_SAVE_AS = '{category}/{slug}/index.html'
+
+
 THEME = './theme/'
