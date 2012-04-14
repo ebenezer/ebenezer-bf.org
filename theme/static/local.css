@@ -48,6 +48,9 @@ h3 { margin-top: 2.5em; }
 .social a[href*='twitter.com']:before {content: url('./images/icons/twitter.png'); margin-right: 2px; vertical-align: -3px;}
 
 /* Navbar override */
+.navbar {
+  margin-top: 8px;
+}
 .navbar-inner {
   padding-right: 0;
 }
