@@ -1,6 +1,7 @@
-Title: centre_scolaire-vie_ecole
+Title: Vie à l'école
 
-**La vie à l'école**
+La vie à l'école
+----------------
 
 Le premier pas dans nos Lycées pour les candidats à une classe d'examen
 ![alt text][1]

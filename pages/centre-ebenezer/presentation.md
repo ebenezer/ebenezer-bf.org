@@ -1,4 +1,4 @@
-Title: centre_ebenezer
+Title: Présentation
 
 Présentation du Centre Eben-Ezer
 --------------------------------

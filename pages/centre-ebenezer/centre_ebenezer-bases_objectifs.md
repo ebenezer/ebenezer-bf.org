@@ -1,4 +1,4 @@
-Title: centre_ebenezer-bases_objectifs
+Title: Bases et objectifs
 
 Définition
 ----------
