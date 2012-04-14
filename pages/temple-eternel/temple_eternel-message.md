@@ -1,4 +1,4 @@
-Title: temple_eternel-message
+Title: Message
 
 Autant nous transformons tout autour de nous pour avoir un cadre agréable, 
 

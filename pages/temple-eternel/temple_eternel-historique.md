@@ -1,4 +1,4 @@
-Title: temple_eternel-historique
+Title: Historique
 
 Historique du Temple de l'Eternel
 ---------------------------------

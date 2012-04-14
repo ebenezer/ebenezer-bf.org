@@ -1,4 +1,4 @@
-Title: temple_eternel-fondement
+Title: Fondement
 
 Fondement, doctrine
 -------------------

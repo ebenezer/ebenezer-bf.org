@@ -1,4 +1,4 @@
-Title: partenaires
+Title: Partenaires
 
 Présentation des partenaires
 ----------------------------

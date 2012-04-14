@@ -1,4 +1,4 @@
-Title: dedougou
+Title: Dédougou
 
 Dédougou
 --------

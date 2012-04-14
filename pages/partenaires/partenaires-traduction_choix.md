@@ -1,4 +1,4 @@
-Title: partenaires-traduction_choix
+Title: Choix de partenariat
 
 Choix de partenariat
 --------------------
