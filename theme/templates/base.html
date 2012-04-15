@@ -74,9 +74,7 @@
 
             <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
             <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Site
-                </li>
+                <li class="nav-header">Actualités</li>
             
                 <li><a href="{{ SITEURL }}/archives.html">Archives</a>
                 <li><a href="{{ SITEURL }}/tags.html">Tags</a>
@@ -88,15 +86,19 @@
             </div>
 
 
-            {% if categories %}
+            {% if page %}
             <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
             <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Categories
-                </li>
+                <li class="nav-header">{{ page.title }}</li>
                 
-                {% for cat, null in categories %}
-                <li><a href="{{ SITEURL }}/category/{{ cat }}.html">{{ cat }}</a></li>
+                {% for cat, pages in pages_categories %}
+                {% if cat == page.category.name %}
+                {% for p in pages %}
+                <li{{' class="active"' if p.title == page.title}}>
+                    <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+                </li>
+                {% endfor %}
+                {% endif %}
                 {% endfor %}                   
             </ul>
             </div>
@@ -106,9 +108,7 @@
             {% if LINKS %}
             <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
             <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Links
-                </li>
+                <li class="nav-header">Liens</li>
             
             {% for name, link in LINKS %}
                 <li><a href="{{ link }}">{{ name }}</a></li>
