@@ -1,4 +1,5 @@
 Title: Bases et objectifs
+Sorting: 2
 
 Définition
 ----------

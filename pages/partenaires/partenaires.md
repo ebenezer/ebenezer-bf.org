@@ -1,4 +1,5 @@
 Title: Partenaires
+Sorting: 1
 
 Présentation des partenaires
 ----------------------------

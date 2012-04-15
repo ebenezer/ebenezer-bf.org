@@ -1,4 +1,5 @@
 Title: Choix de partenariat
+Sorting: 2
 
 Choix de partenariat
 --------------------

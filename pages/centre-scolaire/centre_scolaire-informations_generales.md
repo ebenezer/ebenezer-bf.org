@@ -1,4 +1,5 @@
 Title: Informations générales
+Sorting: 2
 
 Informations générales
 ----------------------

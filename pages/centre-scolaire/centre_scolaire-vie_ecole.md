@@ -1,4 +1,5 @@
 Title: Vie à l'école
+Sorting: 3
 
 La vie à l'école
 ----------------

@@ -1,4 +1,5 @@
 Title: Présentation
+Sorting: 1
 
 Présentation du Temple de l'Éternel
 -----------------------------------

@@ -1,4 +1,5 @@
 Title: Historique
+Sorting: 2
 
 Historique du Temple de l'Eternel
 ---------------------------------

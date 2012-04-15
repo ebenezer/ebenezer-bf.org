@@ -1,4 +1,5 @@
 Title: Fondement
+Sorting: 3
 
 Fondement, doctrine
 -------------------
