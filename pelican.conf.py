@@ -1,15 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 import os
+from operator import attrgetter
 from collections import defaultdict
 from itertools import chain
 
 from pelican import Pelican
 from pelican.generators import Generator, PagesGenerator, ArticlesGenerator, \
         StaticGenerator, PdfGenerator
-from pelican.readers import read_file
+from pelican.readers import read_file, _METADATA_PROCESSORS
 from pelican.contents import Page, Category, is_valid_content
 from pelican.utils import process_translations
+
+
+_METADATA_PROCESSORS.update({
+    'sorting': lambda x, y: int(x),
+    })
 
 
 class NewPagesGenerator(Generator):
@@ -33,6 +39,10 @@ class NewPagesGenerator(Generator):
                 error(u'Could not process %s\n%s' % (f, str(e)))
                 continue
 
+            # if no sorting is set, set default to 99
+            if 'sorting' not in metadata.keys():
+                metadata['sorting'] = 99
+
             # if no category is set, use the name of the path as a category
             if 'category' not in metadata.keys():
 
@@ -55,6 +65,9 @@ class NewPagesGenerator(Generator):
                 self.drafts.append(page)
 
         self.pages, self.translations = process_translations(all_pages)
+
+        # sort pages on both 'sorting' and 'title' attribute
+        self.pages.sort(key=attrgetter('sorting', 'title'))
 
         for page in self.pages:
             # only main pages are listed in pages_categories, not translations
