@@ -72,20 +72,6 @@
         <div class="span3">
             <img src="http://public.inneos.org/logo-ebenezer-couleur7_devise.png" style="width:200px; margin:8px;" alt="Logo Centre Eben-Ezer" />
 
-            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
-            <ul class="nav nav-list">
-                <li class="nav-header">Actualités</li>
-            
-                <li><a href="{{ SITEURL }}/archives.html">Archives</a>
-                <li><a href="{{ SITEURL }}/tags.html">Tags</a>
-                <li><a href="{{ SITEURL }}/{{ FEED }}" rel="alternate">Atom feed</a></li>
-                {% if FEED_RSS %}
-                <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">RSS feed</a></li>
-                {% endif %}
-            </ul>
-            </div>
-
-
             {% if page %}
             <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
             <ul class="nav nav-list">
@@ -103,6 +89,20 @@
             </ul>
             </div>
             {% endif %}
+
+
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header">Actualités</li>
+            
+                <li><a href="{{ SITEURL }}/archives.html">Archives</a>
+                <li><a href="{{ SITEURL }}/tags.html">Tags</a>
+                <li><a href="{{ SITEURL }}/{{ FEED }}" rel="alternate">Atom feed</a></li>
+                {% if FEED_RSS %}
+                <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">RSS feed</a></li>
+                {% endif %}
+            </ul>
+            </div>
 
 
             {% if LINKS %}
