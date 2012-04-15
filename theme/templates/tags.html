@@ -1,9 +1,14 @@
 {% extends "base.html" %}
 {% block title %}{{ SITENAME }} <small>[tgs]</small>{% endblock %}
 {% block content %}
+<h2>Tags des actualités</h2>
+{% if tags %}
 <ul>
 {% for tag, articles in tags %}
     <li><a href="{{ SITEURL }}/tag/{{ tag }}.html">{{ tag }}</li>
 {% endfor %}
 </ul>
+{% else %}
+<p><em>Il n'existe aucun tag.</em></p>
+{% endif %}
 {% endblock %}
