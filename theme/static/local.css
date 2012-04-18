@@ -78,3 +78,8 @@ li { line-height: 1.6em; }
   background-color: #eee;
   color: #97310e;
 }
+
+#logo-ebenezer {
+  width: 200px;
+  margin: 8px 8px 20px 8px
+}
