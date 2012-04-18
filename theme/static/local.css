@@ -56,6 +56,10 @@ li { line-height: 1.6em; }
 .navbar .nav.pull-right {
   margin-left: 0;
 }
+.navbar .nav > li > a {
+  border-left: 1px solid #D41F30;
+  border-right: 1px solid #9D1A26;
+}
 .navbar .nav > li:last-child > a {
   border-right: 0 none;
 }
