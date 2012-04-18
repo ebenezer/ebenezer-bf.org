@@ -8,10 +8,6 @@
 // GLOBAL VALUES
 // --------------------------------------------------
 
-// Links
-@linkColor:             #DD4814;
-@linkColorHover:        darken(@linkColor, 15%);
-
 // Grays
 @black:                 #000;
 @grayDarker:            #222;
@@ -31,6 +27,11 @@
 @pink:                  #c3325f;
 @purple:                #772953;
 
+// Eben-ezer colors
+@ee-lightred:           #BE1E2D;
+@ee-middlered:          #AE1C29;
+@ee-darkred:            #9D1A26;
+
 // Typography
 @baseFontSize:          13px;
 @baseFontFamily:        'Ubuntu', Tahoma, sans-serif;
@@ -39,6 +40,11 @@
 
 // Buttons
 @primaryButtonBackground:    @linkColor;
+
+// Links
+@linkColor:             @ee-lightred;
+//@linkColorHover:        darken(@linkColor, 15%);
+@linkColorHover:        @ee-darkred;
 
 
 
@@ -67,8 +73,8 @@
 
 // Navbar
 @navbarHeight:                    40px;
-@navbarBackground:                #DD4814;
-@navbarBackgroundHighlight:       #CE4213;
+@navbarBackground:                @ee-lightred;
+@navbarBackgroundHighlight:       @ee-middlered;
 @navbarLinkBackgroundHover:       transparent;
 
 @navbarText:                      @white;
