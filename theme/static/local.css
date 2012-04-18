@@ -62,6 +62,7 @@ li { line-height: 1.6em; }
 }
 .navbar .nav > li:last-child > a {
   border-right: 0 none;
+  border-radius: 0px 4px 4px 0px;
 }
 .navbar .nav > li:first-child > a {
   border-left: 0 none;
