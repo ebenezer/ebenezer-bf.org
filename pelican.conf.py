@@ -18,18 +18,24 @@ _METADATA_PROCESSORS.update({
     })
 
 
+class PagesCategory(Category):
+    def __init__(self, name, settings, title=None):
+        super(PagesCategory, self).__init__(name, settings)
+        self.title = title if title else name
+
 class NewPagesGenerator(Generator):
     """Generate pages"""
 
     def __init__(self, *args, **kwargs):
         self.pages = []
-        self.pages_categories = defaultdict(list)
+        self.all_pages_categories = defaultdict(list)
         super(NewPagesGenerator, self).__init__(*args, **kwargs)
         self.drafts = []
 
     def generate_context(self):
         all_pages = []
 
+        pagecat_map = dict(self.settings.get('PAGECAT_MAP'))
         for f in self.get_files(
                 os.path.join(self.path, self.settings['PAGE_DIR']),
                 exclude=self.settings['PAGE_EXCLUDES']):
@@ -52,7 +58,10 @@ class NewPagesGenerator(Generator):
                     category = os.path.basename(os.path.dirname(f)).decode('utf-8')
 
                 if category != '':
-                    metadata['category'] = Category(category, self.settings)
+                    title = pagecat_map[category] \
+                                if category in pagecat_map else None
+                    metadata['category'] = PagesCategory(
+                            category, self.settings, title)
 
             page = Page(content, metadata, settings=self.settings,
                         filename=f)
@@ -70,16 +79,20 @@ class NewPagesGenerator(Generator):
         self.pages.sort(key=attrgetter('sorting', 'title'))
 
         for page in self.pages:
-            # only main pages are listed in pages_categories, not translations
-            self.pages_categories[page.category].append(page)
+            # only pages are listed in all_pages_categories, not translations
+            self.all_pages_categories[page.category].append(page)
 
-        # order the pages_categories per name
-        self.pages_categories = list(self.pages_categories.items())
-        self.pages_categories.sort(
-                key=lambda item: item[0].name,
-                reverse=self.settings['REVERSE_CATEGORY_ORDER'])
+        pcats = dict([(cat.name, (cat, pages)) for cat, pages in \
+                self.all_pages_categories.iteritems()])
 
-        self._update_context(('pages', 'pages_categories',))
+        # create the pages_categories list based on PAGECAT_MAP config
+        self.pages_categories = []
+        for cat, _ in self.settings.get('PAGECAT_MAP'):
+            if cat in pcats:
+                self.pages_categories.append(pcats[cat])
+
+        self._update_context(
+                ('pages', 'pages_categories', 'all_pages_categories',))
 
 
     def generate_output(self, writer):
@@ -143,6 +156,16 @@ ARTICLE_URL = 'actualites/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'actualites/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 PAGE_URL = '{category}/{slug}/'
 PAGE_SAVE_AS = '{category}/{slug}/index.html'
+PAGESCATEGORY_URL = 'category/{slug}/'
+PAGESCATEGORY_SAVE_AS = 'category/{slug}/index.html'
+
+PAGECAT_MAP = [
+        (u'centre-ebenezer', u'Centre Eben-Ezer'),
+        (u'centre-scolaire', u'Centre Scolaire'),
+        (u'partenaires', u'Partenaires'),
+        (u'temple-eternel', u'Temple de l\'Éternel'),
+        (u'pages', u'A propos'),
+        ]
 
 
 THEME = './theme/'
