@@ -8,7 +8,6 @@ li { line-height: 1.6em; }
 /* Styling for articles */
 .article { padding-bottom:20px; padding-right: 40px; }
 .content-title { margin-bottom: 30px; }
-.article a:hover { text-decoration: none; } 
 
 /* Styling for the "other entries" section */
 /* Metadata */
