@@ -145,7 +145,7 @@ LINKS =  (
 #          )
 
 DISPLAY_PAGES_ON_MENU = True
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 5
 
 STATIC_PATHS = ['data']
 OUTPUT_PATH = '_output/'
