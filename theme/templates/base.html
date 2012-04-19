@@ -76,7 +76,7 @@
             {% if page %}
             <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
             <ul class="nav nav-list">
-                <li class="nav-header">{{ page.category.name }}</li>
+                <li class="nav-header">{{ page.category.title }}</li>
                 
                 {% for cat, pages in pages_categories %}
                 {% if cat == page.category.name %}
