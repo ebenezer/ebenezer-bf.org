@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 import os
+import re
 from operator import attrgetter
 from collections import defaultdict
 from itertools import chain
 
+import markdown
 from pelican import Pelican
 from pelican.generators import Generator, PagesGenerator, ArticlesGenerator, \
         StaticGenerator, PdfGenerator
@@ -42,7 +44,7 @@ class NewPagesGenerator(Generator):
             try:
                 content, metadata = read_file(f, settings=self.settings)
             except Exception, e:
-                error(u'Could not process %s\n%s' % (f, str(e)))
+                print(u'Could not process %s\n%s' % (f, str(e)))
                 continue
 
             # if no sorting is set, set default to 99
@@ -115,6 +117,24 @@ class NewPagesGenerator(Generator):
                     relative_urls=self.settings.get('RELATIVE_URLS'))
 
 
+class ReSubPreprocessor(markdown.preprocessors.Preprocessor):
+    def __init__(self, *args, **kwargs):
+        self.pattern, self.repl = kwargs['resub']
+        del kwargs['resub']
+        markdown.preprocessors.Preprocessor.__init__(self, *args, **kwargs)
+    def run(self, lines):
+        new_lines = []
+        for line in lines:
+            new_lines.append(re.sub(self.pattern, self.repl, line))
+        return new_lines
+
+class ReSubExtension(markdown.Extension):
+    def extendMarkdown(self, md, md_globals):
+        md.preprocessors.insert(0, 'resub', ReSubPreprocessor(md, **self.config))
+
+llink = ReSubExtension(configs={'resub': ('\]: /_/', ']: /PREFIX_TEST/')})
+
+
 class MyPelican(Pelican):
 
     def get_generator_classes(self):
@@ -125,6 +145,7 @@ class MyPelican(Pelican):
 
 
 PELICAN_CLASS = MyPelican
+MD_EXTENSIONS = ['codehilite', 'extra', llink]
 
 AUTHOR = u"Bruno Binet"
 SITENAME = u"Centre Eben-Ezer"
