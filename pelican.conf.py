@@ -196,7 +196,7 @@ PAGECAT_MAP = [
         (u'centre-scolaire', u'Centre Scolaire'),
         (u'partenaires', u'Partenaires'),
         (u'temple-eternel', u'Temple de l\'Éternel'),
-        (u'pages', u'A propos'),
+        (u'a-propos', u'A propos'),
         ]
 
 
