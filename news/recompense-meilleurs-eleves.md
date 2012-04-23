@@ -58,6 +58,6 @@ Tous ces élèves primés ont reçu chacun un vélo et une réduction de 10% sur
  
 
 
-  [1]: /data/images/pagabelem_publi.jpg
-  [2]: /data/images/koanda_Publi.jpg
-  [3]: /data/images/claudette_Publi.jpg
+  [1]: /static/data/images/pagabelem_publi.jpg
+  [2]: /static/data/images/koanda_Publi.jpg
+  [3]: /static/data/images/claudette_Publi.jpg

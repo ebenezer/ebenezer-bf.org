@@ -74,6 +74,6 @@ porter par la résurrection et la vie du Christ.
 Message tiré du bulletin: *l'eau vive n°135 de Avril- Mai- Juin 2009*
 
 
- [1]: /data/CEEE_2009_2010/Rencontres_au_Centre/Transforme_autour_de_toi_PICT1583_cropped.JPG
- [2]: /data/images/PICT0358.JPG
- [3]: /data/images/Pay_fleur_1PICT1416.JPG
+ [1]: /static/data/CEEE_2009_2010/Rencontres_au_Centre/Transforme_autour_de_toi_PICT1583_cropped.JPG
+ [2]: /static/data/images/PICT0358.JPG
+ [3]: /static/data/images/Pay_fleur_1PICT1416.JPG

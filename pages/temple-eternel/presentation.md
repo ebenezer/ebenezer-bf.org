@@ -31,7 +31,7 @@ Venez louer avec nous au son du Djembé et des maracasses!
 Pour tout renseignement appelez au 00 226 20 52 25 01, nous vous y conduirons.
 
 
-  [1]: /_/dedougou
-  [2]: /_/temple_eternel/fondement
-  [3]: /_/temple_eternel/historique
-  [4]: /data/images/eglise_enfants.jpg
+  [1]: /pages/dedougou/
+  [2]: /temple_eternel/fondement
+  [3]: /temple_eternel/historique
+  [4]: /static/data/images/eglise_enfants.jpg

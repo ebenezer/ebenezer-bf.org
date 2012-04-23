@@ -64,20 +64,20 @@ Le Neretier
 ![alt text][17]
 
 
-  [1]: /_/centre_ebenezer/bases_objectifs
-  [2]: /data/Presentation/PICT2009.JPG
-  [3]: /data/Presentation/Salle_Multimedia_E__cropped.JPG
-  [4]: /data/Presentation/Salle_Multimedia_Vue_Nord__cropped.JPG
-  [5]: /data/Presentation/Salle_Multimedia_vue_W__cropped.JPG
-  [6]: /data/Presentation/Bureau_salle_Informatique__cropped.JPG
-  [7]: /data/Presentation/Bureau_Salle_Multimedia__cropped.JPG
-  [8]: /data/Presentation/Salles_de_Classe__cropped.JPG
-  [9]: /data/Presentation/Sanitaire_E__cropped.JPG
-  [10]: /data/Presentation/Sanitaires_W__cropped.JPG
-  [11]: /data/Presentation/Chateau_et_Forage__cropped.JPG
-  [12]: /data/Presentation/Jardin__cropped.JPG
-  [13]: /data/Presentation/Jardin_N__cropped.JPG
-  [14]: /data/Presentation/Salle_d'Energie__cropped.JPG
-  [15]: /data/Presentation/Cuisine__cropped.JPG
-  [16]: /data/Presentation/Residence__cropped.JPG
-  [17]: /data/Presentation/Neretier__cropped.JPG
+  [1]: /centre_ebenezer/bases_objectifs
+  [2]: /static/data/Presentation/PICT2009.JPG
+  [3]: /static/data/Presentation/Salle_Multimedia_E__cropped.JPG
+  [4]: /static/data/Presentation/Salle_Multimedia_Vue_Nord__cropped.JPG
+  [5]: /static/data/Presentation/Salle_Multimedia_vue_W__cropped.JPG
+  [6]: /static/data/Presentation/Bureau_salle_Informatique__cropped.JPG
+  [7]: /static/data/Presentation/Bureau_Salle_Multimedia__cropped.JPG
+  [8]: /static/data/Presentation/Salles_de_Classe__cropped.JPG
+  [9]: /static/data/Presentation/Sanitaire_E__cropped.JPG
+  [10]: /static/data/Presentation/Sanitaires_W__cropped.JPG
+  [11]: /static/data/Presentation/Chateau_et_Forage__cropped.JPG
+  [12]: /static/data/Presentation/Jardin__cropped.JPG
+  [13]: /static/data/Presentation/Jardin_N__cropped.JPG
+  [14]: /static/data/Presentation/Salle_d'Energie__cropped.JPG
+  [15]: /static/data/Presentation/Cuisine__cropped.JPG
+  [16]: /static/data/Presentation/Residence__cropped.JPG
+  [17]: /static/data/Presentation/Neretier__cropped.JPG

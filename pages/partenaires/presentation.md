@@ -18,4 +18,4 @@ libère.
 Issa!
 
 
-  [1]: /data/images/montgolfiere.png
+  [1]: /static/data/images/montgolfiere.png

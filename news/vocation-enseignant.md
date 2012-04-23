@@ -16,4 +16,4 @@ Nous avons encore aujourd'hui des professeurs qui mettent au devant leur vocatio
 Bon courage professeur!
 
 
-  [1]: /data/PICT0363_Dakouo.JPG
+  [1]: /static/data/PICT0363_Dakouo.JPG

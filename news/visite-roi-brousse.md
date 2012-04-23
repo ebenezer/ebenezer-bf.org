@@ -17,4 +17,4 @@ On se croirait dans un conte de mille et une nuits. Beaucoup ont pu découvrir p
  ![éléphant][1]
 
 
-  [1]: /data/images/elephantt_24_08_09.jpg
+  [1]: /static/data/images/elephantt_24_08_09.jpg

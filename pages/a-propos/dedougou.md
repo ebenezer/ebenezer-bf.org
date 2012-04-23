@@ -55,4 +55,4 @@ sources de la richesse de cette région. Gageons qu'ils trouveront les filons.*
 
 
   [1]: http://www.petiteacademie.gov.bf/AutreRepere/AutreRepere.asp?CodeAutreRepere=4900
-  [2]: /data/images/Localisation_DedougouBurkinaAfrique.png
+  [2]: /static/data/images/Localisation_DedougouBurkinaAfrique.png

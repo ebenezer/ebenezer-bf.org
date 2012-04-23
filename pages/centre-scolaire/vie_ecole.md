@@ -21,6 +21,6 @@ Au terrain de Sport
 ![alt text][3]
 
 
-  [1]: /data/CEEE_2009_2010/Ecole/test_entree_pict1381_cropped.jpg
-  [2]: /data/CEEE_2009_2010/Ecole/en_classe_PICT0498_cropped.JPG
-  [3]: /data/CEEE_2009_2010/Sport/Au_Sport_PICT0307_cropped.JPG
+  [1]: /static/data/CEEE_2009_2010/Ecole/test_entree_pict1381_cropped.jpg
+  [2]: /static/data/CEEE_2009_2010/Ecole/en_classe_PICT0498_cropped.JPG
+  [3]: /static/data/CEEE_2009_2010/Sport/Au_Sport_PICT0307_cropped.JPG

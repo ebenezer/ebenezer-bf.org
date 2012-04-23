@@ -39,13 +39,13 @@ text][9]
 Une formation en dessin pour la deuxième édition.  ![alt text][10] 
 
 
-  [1]: /data/CEEE_2009_2010/Rencontres_au_Centre/1er_Seminaire_GB_Pict0471_cropped.jpg
-  [2]: /data/CEEE_2009_2010/Rencontres_au_Centre/Camp_GB_departemental_2009_PICT1844_cropped.JPG
-  [3]: /data/CEEE_2009_2010/Rencontres_au_Centre/Convention_GB_Mars_2010_Fin_PICT0756.JPG
-  [4]: /data/CEEE_2009_2010/Rencontres_au_Centre/Noel_enfants_2007_pict0060_cropped.jpg
-  [5]: /data/CEEE_2009_2010/Rencontres_au_Centre/Noel_des_enfants_2009_PICT0421.JPG
-  [6]: /data/CEEE_2009_2010/Rencontres_au_Centre/Camp_enfants_2009_Aurevoir_PICT0336_cropped.JPG
-  [7]: /data/CEEE_2009_2010/Rencontres_au_Centre/Pasteurs_Epouses_pict1401_cropped.jpg
-  [8]: /data/CEEE_2009_2010/Rencontres_au_Centre/Pasteurs_Epouses_pict1396_cropped.jpg
-  [9]: /data/CEEE_2009_2010/Formations/1er_concours_excellence_2006_PICT0538_cropped.JPG
-  [10]: /data/CEEE_2009_2010/Formations/Ecole_de_dessin_pict0263.jpg
+  [1]: /static/data/CEEE_2009_2010/Rencontres_au_Centre/1er_Seminaire_GB_Pict0471_cropped.jpg
+  [2]: /static/data/CEEE_2009_2010/Rencontres_au_Centre/Camp_GB_departemental_2009_PICT1844_cropped.JPG
+  [3]: /static/data/CEEE_2009_2010/Rencontres_au_Centre/Convention_GB_Mars_2010_Fin_PICT0756.JPG
+  [4]: /static/data/CEEE_2009_2010/Rencontres_au_Centre/Noel_enfants_2007_pict0060_cropped.jpg
+  [5]: /static/data/CEEE_2009_2010/Rencontres_au_Centre/Noel_des_enfants_2009_PICT0421.JPG
+  [6]: /static/data/CEEE_2009_2010/Rencontres_au_Centre/Camp_enfants_2009_Aurevoir_PICT0336_cropped.JPG
+  [7]: /static/data/CEEE_2009_2010/Rencontres_au_Centre/Pasteurs_Epouses_pict1401_cropped.jpg
+  [8]: /static/data/CEEE_2009_2010/Rencontres_au_Centre/Pasteurs_Epouses_pict1396_cropped.jpg
+  [9]: /static/data/CEEE_2009_2010/Formations/1er_concours_excellence_2006_PICT0538_cropped.JPG
+  [10]: /static/data/CEEE_2009_2010/Formations/Ecole_de_dessin_pict0263.jpg
