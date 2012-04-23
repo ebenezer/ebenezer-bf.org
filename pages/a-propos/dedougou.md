@@ -6,10 +6,10 @@ Dédougou
 Venu du Mali voisin au 16éme Siècle, le chasseur Koé s'installera à Bankuy.
 Il donnera par la suite le nom de Déédu (heureux et fier); le recensement
 colonial le reconnaît comme le  « village de Déédu » en langue bambara
-**Dédougou**. ([la petite académie][1])
+**Dédougou**.
 
 
-![Localisation Dédougou Burkina][2]
+![Localisation Dédougou Burkina][1]
 
 
 ### Les richesses de Dédougou
@@ -54,5 +54,4 @@ bâtissons notre région.
 sources de la richesse de cette région. Gageons qu'ils trouveront les filons.*
 
 
-  [1]: http://www.petiteacademie.gov.bf/AutreRepere/AutreRepere.asp?CodeAutreRepere=4900
-  [2]: /static/data/images/Localisation_DedougouBurkinaAfrique.png
+  [1]: /static/data/images/Localisation_DedougouBurkinaAfrique.png
