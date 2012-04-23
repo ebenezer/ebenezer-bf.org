@@ -117,37 +117,20 @@ class NewPagesGenerator(Generator):
                     relative_urls=self.settings.get('RELATIVE_URLS'))
 
 
-class ReSubPreprocessor(markdown.preprocessors.Preprocessor):
-    def __init__(self, *args, **kwargs):
-        self.pattern, self.repl = kwargs['resub']
-        del kwargs['resub']
-        markdown.preprocessors.Preprocessor.__init__(self, *args, **kwargs)
-    def run(self, lines):
-        new_lines = []
-        for line in lines:
-            new_lines.append(re.sub(self.pattern, self.repl, line))
-        return new_lines
-
-class ReSubExtension(markdown.Extension):
-    def extendMarkdown(self, md, md_globals):
-        md.preprocessors.insert(0, 'resub', ReSubPreprocessor(md, **self.config))
-
-class ReSubLinkExtension(markdown.Extension):
-    def extendMarkdown(self, md, md_globals):
-        pattern, repl = self.config['resub']
-        # override LinkPattern.sanitize_url method with our own
-        # import pdb; pdb.set_trace()
-        _sanitize_url = markdown.inlinepatterns.LinkPattern.sanitize_url
-        def custom_sanitize_url(url):
-            # if url.startswith('/'):
-            #     import pdb; pdb.set_trace()
-            return _sanitize_url(md.inlinePatterns['image_reference'], re.sub(pattern, repl, url))
-        md.inlinePatterns['image_reference'].sanitize_url = custom_sanitize_url
-
-
-#llink = ReSubExtension(configs={'resub': ('\]: /_/', ']: /PREFIX_TEST/')})
-llink = ReSubLinkExtension(configs={'resub': ('^/', '/../')})
-#llink = ReSubLinkExtension(configs={'resub': ('^/_/', '/PREFIX_TEST/')})
+# class ReSubPreprocessor(markdown.preprocessors.Preprocessor):
+#     def __init__(self, *args, **kwargs):
+#         self.pattern, self.repl = kwargs['resub']
+#         del kwargs['resub']
+#         markdown.preprocessors.Preprocessor.__init__(self, *args, **kwargs)
+#     def run(self, lines):
+#         new_lines = []
+#         for line in lines:
+#             new_lines.append(re.sub(self.pattern, self.repl, line))
+#         return new_lines
+# class ReSubExtension(markdown.Extension):
+#     def extendMarkdown(self, md, md_globals):
+#         md.preprocessors.insert(0, 'resub', ReSubPreprocessor(md, **self.config))
+# llink = ReSubExtension(configs={'resub': ('\]: /_/', ']: /PREFIX_TEST/')})
 
 
 class MyPelican(Pelican):
@@ -160,7 +143,7 @@ class MyPelican(Pelican):
 
 
 PELICAN_CLASS = MyPelican
-MD_EXTENSIONS = ['codehilite', 'extra', llink]
+MD_EXTENSIONS = ['codehilite', 'extra']
 
 AUTHOR = u"Bruno Binet"
 SITENAME = u"Centre Eben-Ezer"
