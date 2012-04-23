@@ -147,7 +147,6 @@ MD_EXTENSIONS = ['codehilite', 'extra']
 
 AUTHOR = 'Bruno Binet'
 SITENAME = 'Centre Eben-Ezer'
-SITEURL = '/'
 
 TIMEZONE = 'Europe/Paris'
 
