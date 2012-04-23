@@ -32,6 +32,6 @@ Pour tout renseignement appelez au 00 226 20 52 25 01, nous vous y conduirons.
 
 
   [1]: /pages/dedougou/
-  [2]: /temple_eternel/fondement
-  [3]: /temple_eternel/historique
+  [2]: /temple-eternel/fondement
+  [3]: /temple-eternel/historique
   [4]: /static/data/images/eglise_enfants.jpg
