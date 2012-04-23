@@ -136,14 +136,18 @@ class ReSubLinkExtension(markdown.Extension):
     def extendMarkdown(self, md, md_globals):
         pattern, repl = self.config['resub']
         # override LinkPattern.sanitize_url method with our own
+        # import pdb; pdb.set_trace()
         _sanitize_url = markdown.inlinepatterns.LinkPattern.sanitize_url
-        def custom_sanitize_url(self, url):
-            return _sanitize_url(self, re.sub(pattern, repl, url))
-        markdown.inlinepatterns.LinkPattern.sanitize_url = custom_sanitize_url
+        def custom_sanitize_url(url):
+            # if url.startswith('/'):
+            #     import pdb; pdb.set_trace()
+            return _sanitize_url(md.inlinePatterns['image_reference'], re.sub(pattern, repl, url))
+        md.inlinePatterns['image_reference'].sanitize_url = custom_sanitize_url
 
 
 #llink = ReSubExtension(configs={'resub': ('\]: /_/', ']: /PREFIX_TEST/')})
-llink = ReSubLinkExtension(configs={'resub': ('^/_/', '/PREFIX_TEST/')})
+llink = ReSubLinkExtension(configs={'resub': ('^/', '/../')})
+#llink = ReSubLinkExtension(configs={'resub': ('^/_/', '/PREFIX_TEST/')})
 
 
 class MyPelican(Pelican):
