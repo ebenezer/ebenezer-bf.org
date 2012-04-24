@@ -2,6 +2,7 @@ Title: Le grand jour!
 Author: Issa
 Slug: le-grand-jour
 Date: 2009-06-01
+Tags: Centre scolaire, Centre Eben-Ezer
 
 Le samedi 30 Mai fut un grand jour au Centre Eben- Ezer.
 

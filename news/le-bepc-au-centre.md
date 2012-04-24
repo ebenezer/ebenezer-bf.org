@@ -2,6 +2,7 @@ Title: Le B.E.P.C. au Centre
 Author: Issa
 Slug: le-bepc-au-centre
 Date: 2009-07-11
+Tags: Centre scolaire, Résultats scolaires, B.E.P.C.
 
 Le Centre Scolaire vient de présenter ses premiers élèves à l'examen du B.E.P.C. 
 
