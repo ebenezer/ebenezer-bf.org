@@ -64,7 +64,7 @@ Le Neretier
 ![alt text][17]
 
 
-  [1]: /centre_ebenezer/bases_objectifs
+  [1]: /centre-ebenezer/bases-et-objectifs
   [2]: /static/data/Presentation/PICT2009.JPG
   [3]: /static/data/Presentation/Salle_Multimedia_E__cropped.JPG
   [4]: /static/data/Presentation/Salle_Multimedia_Vue_Nord__cropped.JPG
