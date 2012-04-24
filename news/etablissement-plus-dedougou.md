@@ -2,6 +2,7 @@ Title: Un établissement de plus pour Dédougou
 Author: Issa
 Slug: etablissement-plus-dedougou
 Date: 2008-09-15
+Tags: Centre scolaire, Rentrée scolaire, Enfants
 
 Chaque année, la rentrée scolaire est une période sans sommeil pour les parents d’élèves. Où trouver la place pour les enfants?
 

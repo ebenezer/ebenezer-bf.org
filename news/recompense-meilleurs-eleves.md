@@ -2,6 +2,7 @@ Title: Le Centre Eben-Ezer récompense ses meilleurs élèves
 Author: Issa
 Slug: recompense-meilleurs-eleves
 Date: 2009-06-01
+Tags: Centre scolaire, Résultats scolaires, Enfants, Récompense
 
 La clôture des activités scolaires le 30 Mai, a été une occasion de récompenses pour les élèves méritants.
 

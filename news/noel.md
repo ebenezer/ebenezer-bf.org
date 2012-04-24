@@ -2,6 +2,7 @@ Title: Noël
 Author: Issa
 Slug: noel
 Date: 2007-01-09
+Tags: Temple de l'Eternel, Noël, Fête, Enfants
 
 Bien chers amis,
 

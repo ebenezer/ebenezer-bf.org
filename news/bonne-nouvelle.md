@@ -2,6 +2,7 @@ Title: Bonne nouvelle!
 Author: Issa
 Slug: bonne-nouvelle
 Date: 2007-02-10
+Tags: Centre Eben-Ezer, Amis
 
 Nous avons le plaisir de vous informer de l’arrivée au Centre Eben-Ezer d’un couple pas comme les autres.
 

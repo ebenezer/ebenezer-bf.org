@@ -2,6 +2,7 @@ Title: Vocation: Enseignant!
 Author: Issa
 Slug: vocation-enseignant
 Date: 2009-06-01
+Tags: Enseignant, Centre scolaire
 
 Le 04 Mai 2009, Mr DAKOUO Roger, Professeur de Sciences Physique et Chimie subissait un accident grave.
 Il fut évacué à l'hôpital et s'en sort avec une double fracture à la cheville. Il était à 3h de la fin de son programme de la Troisième.

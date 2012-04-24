@@ -2,6 +2,7 @@ Title: Une visite de courtoisie du Roi de la brousse
 Author: Issa
 Slug: visite-roi-brousse
 Date: 2009-08-30
+Tags: Dédougou, Eléphant
 
 La ville de Dédougou a reçu le 24 Août 2009 la visite du Roi de la brousse son excellence Monsieur Éléphant. Il a parcouru les artères de la ville avec à sa suite une multitude de personnes de tout âge, à pied, à vélo, à mobylette, escorté par sa garde personnelle, les agents des eaux et forêts en 4X4. 
 

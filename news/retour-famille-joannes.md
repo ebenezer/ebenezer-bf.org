@@ -2,6 +2,7 @@ Title: Le retour de la famille Joannes
 Author: Issa
 Slug: retour-famille-joannes
 Date: 2007-02-25
+Tags: Amis
 
 Après un séjour de quatre semaines, Marie et Jacques JOANNES ont regagné jeudi la France.
 
