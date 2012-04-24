@@ -63,8 +63,7 @@ Une opportunité pour être en classe
 
 ![alt text][4]
 
-Pour tout [renseignement][5] et [inscription][6]: cliquez sur le lien correspondant.
-Pour nous joindre, cliquez: [ici][7]
+Pour tout renseignement, veuillez prendre connaissance des [informations générales][5] ou [nous contacter][6].
 
 #### 4- L'École de Nuit
 
@@ -73,7 +72,7 @@ L'École de Nuit permet aux élèves des différents établissements vivant dans
 
 #### 5- L'École d'Été.
 
-![alt text][8]
+![alt text][7]
 Promotion 2010
 
 Durant les grandes vacances d'été, le Centre organise chaque année des cours de remise à niveau 
@@ -84,11 +83,10 @@ d'élèves qui le désirent.
 Depuis 2001, le centre propose des cours de remise à niveau et de renforcement pour les classes d'examen. Avec l'ouverture du Lycée, ce cours prend une grande place pour aider au succès.
 
 
-  [1]: /data/images/1ere_promotion.jpg
-  [2]: /data/CEEE_2009_2010/Formations/Moustapha_au_clavier_pict1641.jpg
-  [3]: /data/CEEE_2010-2011/CS_3eme_.JPG
-  [4]: /data/CEEE_2010-2011/CS_en_classe.JPG
-  [5]: /_/centre_scolaire/informations_generales
-  [6]: /_/nous_contacter/inscription
-  [7]: /_/nous_contacter
-  [8]: /data/CEEE_2010-2011/Cours_d'ete_2010-PICT1240_cropped.JPG
+  [1]: /static/data/images/1ere_promotion.jpg
+  [2]: /static/data/CEEE_2009_2010/Formations/Moustapha_au_clavier_pict1641.jpg
+  [3]: /static/data/CEEE_2010-2011/CS_3eme_.JPG
+  [4]: /static/data/CEEE_2010-2011/CS_en_classe.JPG
+  [5]: /centre-scolaire/informations-generales
+  [6]: /a-propos/nous-contacter
+  [7]: /static/data/CEEE_2010-2011/Cours_d'ete_2010-PICT1240_cropped.JPG
