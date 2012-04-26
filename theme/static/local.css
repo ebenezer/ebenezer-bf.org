@@ -4,6 +4,21 @@ body { font-size: 90%; }
 p { font-size: 100%; line-height: 1.6em; margin-top: 0.8em; margin-bottom: 0.8em; }
 li { line-height: 1.6em; }
 .table th, .table td { line-height: 1.3em; }
+figure {
+  margin: 1.5em;
+}
+figure img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  line-height: 1;
+  padding: 5px;
+}
+figcaption {
+  font-style: italic;
+  text-align: center;
+  color: #666;
+}
 
 /* Styling for articles */
 .article { padding-bottom:20px; padding-right: 40px; }
