@@ -4,7 +4,7 @@ Sorting: 4
 Autant nous transformons tout autour de nous pour avoir un cadre agréable, 
 
 Ainsi, CHRIST transforme nos vies afin qu'elles lui soient agréables.
-![alt text][1]
+![][1]
 
 
 Avec Christ, nous avançons toujours: 
@@ -15,7 +15,7 @@ La Résurrection est quotidienne,
 
 Vivons notre victoire au quotidien.
 
-![alt text][2]
+![][2]
 
 
 **JÉSUS, DIEU AVEC NOUS DANS LA RÉSURRECTION ET LA VIE**
@@ -68,12 +68,12 @@ porter par la résurrection et la vie du Christ.
 *La résurrection... c'est aussi le refus de l'accablement... pour construire
 à nouveau, et du nouveau.* 
 
-![alt text][3]
+![][3]
 
 
 Message tiré du bulletin: *l'eau vive n°135 de Avril- Mai- Juin 2009*
 
 
- [1]: /static/data/CEEE_2009_2010/Rencontres_au_Centre/Transforme_autour_de_toi_PICT1583_cropped.JPG
- [2]: /static/data/images/PICT0358.JPG
- [3]: /static/data/images/Pay_fleur_1PICT1416.JPG
+ [1]: http://farm8.staticflickr.com/7243/6964880414_7ed56c19b6_z.jpg
+ [2]: http://farm8.staticflickr.com/7261/7110961261_d648716136_z.jpg
+ [3]: http://farm8.staticflickr.com/7233/6964886962_e96e9ce3d0_z.jpg
