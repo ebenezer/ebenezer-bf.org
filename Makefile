@@ -13,7 +13,7 @@ SSH_TARGET_DIR=/home/data/websites/static/ebenezer-bf.org
 
 LIB_DIR=$(BASEDIR)/theme/lib
 BS_SRCDIR=$(LIB_DIR)/bootstrap
-BS_DSTDIR=$(OUTPUTDIR)/theme/bootstrap
+BS_DSTDIR=$(BASEDIR)/theme/static/bootstrap
 LESSC=$(BASEDIR)/less.js/bin/lessc
 
 
@@ -28,16 +28,12 @@ help:
 	@echo '                                                                   '
 
 bootstrap:
-	mkdir -p $(BS_DSTDIR)/img
-	mkdir -p $(BS_DSTDIR)/css
-	mkdir -p $(BS_DSTDIR)/js
 	cp $(BS_SRCDIR)/img/* $(BS_DSTDIR)/img/
-	$(LESSC) --compress $(LIB_DIR)/swatchmaker.less $(BS_DSTDIR)/css/bootstrap.min.css
 	cp $(BS_SRCDIR)/js/bootstrap-dropdown.js $(BS_DSTDIR)/js/
-	cp $(BS_SRCDIR)/js/bootstrap-collapse.js $(BS_DSTDIR)/js/
+	$(LESSC) --compress $(LIB_DIR)/swatchmaker.less $(BS_DSTDIR)/css/bootstrap.min.css
 	@echo 'Done'
 
-html: clean $(OUTPUTDIR)/index.html bootstrap
+html: clean $(OUTPUTDIR)/index.html
 	@echo 'Done'
 
 $(OUTPUTDIR)/%.html:
@@ -54,5 +50,5 @@ github: $(OUTPUTDIR)/index.html
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
-.PHONY: html help clean ssh_upload github
+.PHONY: html help clean ssh_upload github bootstrap
     
