@@ -9,7 +9,7 @@ colonial le reconnaît comme le  « village de Déédu » en langue bambara
 **Dédougou**.
 
 
-![Localisation Dédougou Burkina][1]
+![Localisation de la ville de Dédougou au Burkina Faso][1]
 
 
 ### Les richesses de Dédougou
@@ -54,4 +54,4 @@ bâtissons notre région.
 sources de la richesse de cette région. Gageons qu'ils trouveront les filons.*
 
 
-  [1]: /static/data/images/Localisation_DedougouBurkinaAfrique.png
+  [1]: http://farm8.staticflickr.com/7070/7110957367_2728c55e00_z.jpg
