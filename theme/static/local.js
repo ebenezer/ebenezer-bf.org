@@ -11,4 +11,15 @@ $(document).ready(function() {
             $(this).after('<figcaption>'+$(this).attr("alt")+'</figcaption>');
         }
     });
+
+    $("div.galleria").each(function(index) {
+        // Load the classic theme only once
+        if (index === 0) {
+            Galleria.loadTheme(galleria_theme_url);
+        }
+        // Initialize Galleria
+        $('.galleria').galleria({
+            flickr: $(this).attr("id")
+        });
+    });
 });
