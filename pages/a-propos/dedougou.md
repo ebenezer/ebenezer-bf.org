@@ -54,4 +54,4 @@ bâtissons notre région.
 sources de la richesse de cette région. Gageons qu'ils trouveront les filons.*
 
 
-  [1]: http://farm8.staticflickr.com/7070/7110957367_2728c55e00_z.jpg
+  [1]: http://farm9.staticflickr.com/8009/7117993169_46f5079f18_z.jpg
