@@ -47,7 +47,11 @@ Les Classes ouvertes:
 
 Niveau: Les classes du premier cycle.
 
-Les matières concernées: Français - Mathématiques - Physique-Chimie.
+Les matières concernées:
+
+- Français,
+- Mathématiques,
+- Physique-Chimie.
 
   [1]: /static/data/images/lycee_prive_evangelique-158x300.png
   [2]: /static/data/images/cours_appui_et_soutien-158x300.png
