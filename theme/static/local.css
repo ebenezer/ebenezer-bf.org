@@ -5,7 +5,7 @@ p { font-size: 100%; line-height: 1.6em; margin-top: 0.8em; margin-bottom: 0.8em
 li { line-height: 1.6em; }
 .table th, .table td { line-height: 1.3em; }
 figure {
-  margin: 1.5em;
+  margin: 10px;
 }
 figure img {
   border: 1px solid #ddd;
