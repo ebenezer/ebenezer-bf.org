@@ -145,7 +145,7 @@ class MyPelican(Pelican):
 PELICAN_CLASS = MyPelican
 MD_EXTENSIONS = ['codehilite', 'extra']
 
-AUTHOR = 'Bruno Binet'
+AUTHOR = 'Issa Ouedraogo'
 SITENAME = 'Centre Eben-Ezer'
 
 TIMEZONE = 'Europe/Paris'
