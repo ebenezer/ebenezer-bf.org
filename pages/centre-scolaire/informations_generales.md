@@ -14,8 +14,15 @@ Année d'ouverture: 2008 - 2009
 
 Les Classes ouvertes:
 
- - Premier cycle (enseignement général): 6eme - 5eme - 4eme - 3eme
- - Second cycle: Seconde A4, Première  A4, Seconde C
+- Premier cycle (enseignement général):
+    - 6eme,
+    - 5eme,
+    - 4eme,
+    - 3eme.
+- Second cycle:
+    - Seconde A4,
+    - Première A4,
+    - Seconde C.
 
 <br style="clear:both;">
 <div style="float:right;"  markdown="1">
@@ -28,7 +35,11 @@ Année d'ouverture: 2010 - 2011
 
 Les Classes ouvertes:
 
- - Premier Cycle (enseignement général): 6eme - 5eme - 4eme - 3eme
+- Premier Cycle (enseignement général):
+    - 6eme,
+    - 5eme,
+    - 4eme,
+    - 3eme.
 
 <br style="clear:both;">
 
