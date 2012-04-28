@@ -60,12 +60,11 @@ Supérieur pour la réalisation de cet établissement dans les filières:
 Nous attendons la satisfaction dans les domaines des infrastructures et de
 l'équipement pour son ouverture.
 
-
-#### 3- Le Cours de Soutien et d'Appui Eben-Ezer (École du Soir)
-
 <div style="float:right;"  markdown="1">
 ![][4] 
 </div>
+
+#### 3- Le Cours d'Appui et de Soutien Eben-Ezer (École du Soir)
 
 Ouverte en 2010/2011, cette école fonctionne de 15 heures à 18 heures; Ces
 horaires ont été aménagées pour répondre au manque d'électricité publique. Le
