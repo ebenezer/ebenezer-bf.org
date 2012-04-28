@@ -16,7 +16,7 @@ Présentation du centre scolaire
 
 Un objectif majeur du Centre Eben-Ezer est d'être une structure d’appui à
 l’éducation. Un lycée a ainsi ouvert officiellement en octobre 2008 à
-Dédougou.
+[Dédougou][5].
 Pour ce faire il vise à:
 
 ##### INSTRUIRE
@@ -98,3 +98,4 @@ place pour aider au succès.
   [2]: /a-propos/nous-contacter
   [3]: /static/data/images/lycee_prive_evangelique-158x300.png
   [4]: /static/data/images/cours_appui_et_soutien-158x300.png
+  [5]: /a-propos/dedougou
