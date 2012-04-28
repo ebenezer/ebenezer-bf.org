@@ -8,7 +8,7 @@ Débuté en 2001, le Centre d’Etude EBEN-EZER, en abrégé le « Centre Eben-E
 est une structure d’appui à l’éducation formelle et informelle. C’est un lieu
 d’approfondissement de la connaissance pour toutes les catégories de personnes.
 
-Il vise l’épanouissement holistique de l’homme : intellectuel, social,
+Il vise l’épanouissement holistique de l’homme: intellectuel, social,
 spirituel, culturel et physique.
 
 A vocation évangélique, le centre est ouvert à toute personne sans
@@ -20,7 +20,7 @@ Devise
 Le manque de connaissance n’est bon pour personne. Il est la cause de beaucoup
 de difficultés que nous vivons.
 
-Le « Centre » se présente comme un outil d’avant garde de par sa devise : La
+Le « Centre » se présente comme un outil d’avant garde de par sa devise: La
 connaissance au service de la Nation.
 
 Les objectifs du centre
@@ -31,11 +31,11 @@ aux efforts du gouvernement et des parents, pour la réussite des enfants.  La
 récupération des jeunes déscolarisés en vue de faciliter leur insertion dans la
 vie active par l’orientation et la formation dans un métier.
 
-Pour ce faire, le centre propose :
+Pour ce faire, le centre propose:
 
 ###A court terme
 
-L’édification au secteur 5 de Dédougou du premier Centre composé :
+L’édification au secteur 5 de Dédougou du premier Centre composé:
 
  * De salles d’étude équipées et éclairées mises à la disposition des enfants.
  * La construction d’une bibliothèque équipée de livres scolaires de toute
@@ -58,7 +58,7 @@ L’édification au secteur 5 de Dédougou du premier Centre composé :
 ###A long terme
 
  * L’édification de divers « Centres » dans d’autres endroits ;
- * Prendre en charge dans la satisfaction des conditions administratives :
+ * Prendre en charge dans la satisfaction des conditions administratives:
     - L’ouverture d’établissements scolaires dont les niveaux dépendront des
       besoins du temps et des lieux.
     - La création de Centres ou d’Ateliers de formation professionnelle.

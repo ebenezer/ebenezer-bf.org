@@ -18,7 +18,7 @@ C’est pour ce faire qu’avant de partir, c’est-à-dire qu’avant de conna�
 que ce soit, j’ai posé la voie. J’ai choisi où il fallait aller, avec qui et
 comment.
 
-C’est ainsi que j’écrivais en janvier 2000 ce qui suit :
+C’est ainsi que j’écrivais en janvier 2000 ce qui suit:
 
 *« Notre souhait est de rassembler toutes les potentialités que Dieu donne pour
 ramener beaucoup d’âmes au Seigneur. Nous sommes convaincus que Dieu se réserve

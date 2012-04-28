@@ -15,7 +15,7 @@ Les douze vérités fondamentales
  de la foi et de la conduite de l’Assemblée en général et du chrétien en
  particulier. 2 Timothée 3/15-16, 2 Pierre 1/21.
 
- 2. L’unité du seul Dieu vrai et vivant qui existe éternellement par lui-même :
+ 2. L’unité du seul Dieu vrai et vivant qui existe éternellement par lui-même:
  le « Je suis » qui s’est révélé comme étant Un en trois personnes. Deutéronome
  6/4, Exode 3/14, Matthieu 28/19, Marc 12/29, Jean 8/58.
 
