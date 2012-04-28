@@ -34,6 +34,7 @@ bootstrap:
 	@echo 'Done'
 
 html: clean $(OUTPUTDIR)/index.html
+	cp $(BASEDIR)/CNAME $(OUTPUTDIR)
 	@echo 'Done'
 
 $(OUTPUTDIR)/%.html:
