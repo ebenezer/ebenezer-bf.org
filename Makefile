@@ -46,7 +46,7 @@ clean:
 ssh_upload: $(OUTPUTDIR)/index.html
 	rsync -Cavz -e ssh --delete $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-github: $(OUTPUTDIR)/index.html
+github: html
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
