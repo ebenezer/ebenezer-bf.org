@@ -20,14 +20,14 @@ Vivons notre victoire au quotidien.
 
 **JÉSUS, DIEU AVEC NOUS DANS LA RÉSURRECTION ET LA VIE**
 
-*Jésus lui dit : Ton frère se relèvera. Je sais, lui répondit Marthe, qu'il se
-relèvera à la résurrection, au der­nier jour. Jésus lui dit : C'est moi qui
+*Jésus lui dit: Ton frère se relèvera. Je sais, lui répondit Marthe, qu'il se
+relèvera à la résurrection, au der­nier jour. Jésus lui dit: C'est moi qui
 suis la résurrection et la vie. (Jean 11, 23-25)*
 
 Lazare est mort, et Marthe (sa sœur) est désespérée. Pour la consoler, Jésus
 lui rappelle l'espérance de la résurrection. Pour Marthe, cela fait référence
 au dernier jour où, conformément à la foi juive, les morts ressusciteront.
-Parole consolatrice en effet, pour plusieurs raisons :
+Parole consolatrice en effet, pour plusieurs raisons:
 
 S'il est question de résurrection, de réveil, cela sous-entend que — comme
 Jésus le dit au sujet de Lazare au verset 11 de ce chapitre 11 de Jean -- les
@@ -38,7 +38,7 @@ que cette espérance là fait vivre.
 
 Seulement, le dernier jour peut être encore loin et l'espérance de la
 résurrection risque fort de devenir, dans nos esprits, une utopie. Alors Jésus
-prononce cette phrase dense, lourde, chargée de sens : *C'est moi qui suis la
+prononce cette phrase dense, lourde, chargée de sens: *C'est moi qui suis la
 résurrection et la vie*. On sent bien que cette déclaration est importante,
 mais qu'est-ce que Jésus veut dire par ces mots ? En quoi est-il la
 résurrection et la vie ? Et pourquoi les deux, la vie et la résurrec­tion ?
