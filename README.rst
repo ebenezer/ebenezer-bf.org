@@ -14,6 +14,7 @@ Voici la liste des dépendances à installer:
     * `pip install pelican`
     * `pip install markdown`
     * `pip install ghp-import`
+    * `pip install git+git://github.com/Alquimista/python-markdown-video.git`
 
 Il faut aussi installer un environnement nodejs afin de pouvoir recompiler les
 styles bootstrap/bootswatch avec less.js.
