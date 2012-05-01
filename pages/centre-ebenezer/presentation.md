@@ -4,7 +4,7 @@ Sorting: 1
 Présentation du Centre Eben-Ezer
 --------------------------------
 
-Le Centre Eben Ezer est situé dans la ville de Dédougou, au Burkina Faso.
+Le Centre Eben Ezer est situé dans la ville de [Dédougou][2], au Burkina Faso.
 
 Il s'agit d'une structure à vocation évangélique, qui accueille petits et
 grands, sans discrimination.
@@ -22,3 +22,4 @@ Plus de détails sur les [bases et objectifs][1] du Centre.
 <div id="set:72157629543846712" class="galleria"></div>
 
   [1]: /centre-ebenezer/bases-et-objectifs
+  [2]: /a-propos/dedougou

@@ -16,7 +16,7 @@ Présentation du centre scolaire
 
 Un objectif majeur du Centre Eben-Ezer est d'être une structure d’appui à
 l’éducation. Un lycée a ainsi ouvert officiellement en octobre 2008 à
-Dédougou.
+[Dédougou][5].
 Pour ce faire il vise à:
 
 ##### INSTRUIRE
@@ -60,12 +60,11 @@ Supérieur pour la réalisation de cet établissement dans les filières:
 Nous attendons la satisfaction dans les domaines des infrastructures et de
 l'équipement pour son ouverture.
 
-
-#### 3- Le Cours de Soutien et d'Appui Eben-Ezer (École du Soir)
-
 <div style="float:right;"  markdown="1">
 ![][4] 
 </div>
+
+#### 3- Le Cours d'Appui et de Soutien Eben-Ezer (École du Soir)
 
 Ouverte en 2010/2011, cette école fonctionne de 15 heures à 18 heures; Ces
 horaires ont été aménagées pour répondre au manque d'électricité publique. Le
@@ -98,3 +97,4 @@ place pour aider au succès.
   [2]: /a-propos/nous-contacter
   [3]: /static/data/images/lycee_prive_evangelique-158x300.png
   [4]: /static/data/images/cours_appui_et_soutien-158x300.png
+  [5]: /a-propos/dedougou
