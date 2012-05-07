@@ -178,6 +178,11 @@ PAGE_SAVE_AS = '{category}/{slug}/index.html'
 PAGESCATEGORY_URL = 'category/{slug}/'
 PAGESCATEGORY_SAVE_AS = 'category/{slug}/index.html'
 
+DIRECT_TEMPLATES = ('index', 'tags', 'archives',)
+INDEX_SAVE_AS = 'actualites/index.html'
+TAGS_SAVE_AS = 'actualites/tags/index.html'
+ARCHIVES_SAVE_AS = 'actualites/archives/index.html'
+
 PAGECAT_MAP = [
         (u'centre-ebenezer', u'Centre Eben-Ezer'),
         (u'centre-scolaire', u'Centre Scolaire'),
