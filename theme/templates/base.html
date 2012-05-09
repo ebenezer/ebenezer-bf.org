@@ -74,7 +74,7 @@
         <div class="span3">
             <img id="logo-ebenezer" src="{{ SITEURL }}/theme/images/logo-ebenezer-200x200.png" alt="Logo Centre Eben-Ezer" />
 
-            {% if page %}
+            {% if page and page.category %}
             <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
             <ul class="nav nav-list">
                 <li class="nav-header">{{ page.category.title }}</li>
