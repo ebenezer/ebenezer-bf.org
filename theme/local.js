@@ -19,7 +19,9 @@ $(document).ready(function() {
         }
         // Initialize Galleria
         $('.galleria').galleria({
-            flickr: $(this).attr("id")
+            flickr: $(this).attr("id"),
+            responsive: true,
+            height: 0.5625
         });
     });
 });
