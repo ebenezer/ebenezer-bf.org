@@ -55,12 +55,10 @@ class NewPagesGenerator(Generator):
             # if no category is set, use the name of the path as a category
             if 'category' not in metadata.keys():
 
-                if os.path.dirname(f) == os.path.join(
-                        self.path, self.settings['PAGE_DIR']):
-                    category = ''
+                if os.path.dirname(f) == self.path:
+                    category = 'NO_CATEGORY'
                 else:
-                    category = os.path.basename(
-                            os.path.dirname(f)).decode('utf-8')
+                    category = os.path.basename(os.path.dirname(f)).decode('utf-8')
 
                 if category != '':
                     title = pagecat_map[category] \
@@ -85,9 +83,8 @@ class NewPagesGenerator(Generator):
         self.pages.sort(key=attrgetter('sorting', 'title'))
 
         for page in self.pages:
-            if hasattr(page, category):
-                # only pages are listed in all_pages_categories, not translations
-                self.all_pages_categories[page.category].append(page)
+            # only pages are listed in all_pages_categories, not translations
+            self.all_pages_categories[page.category].append(page)
 
         pcats = dict([(cat.name, (cat, pages)) for cat, pages in \
                 self.all_pages_categories.iteritems()])
@@ -108,7 +105,7 @@ class NewPagesGenerator(Generator):
         page_template = self.get_template('page')
         for page in chain(self.translations, self.pages):
             writer.write_file(page.save_as, page_template,
-                    self.context, page=page,
+                    self.context, page=page, category=page.category,
                     relative_urls=self.settings.get('RELATIVE_URLS'))
 
         category_template = self.get_template('page_category')
