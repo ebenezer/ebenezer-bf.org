@@ -33,7 +33,7 @@ class NewPagesGenerator(Generator):
         self.pages = []
         self.all_pages_categories = defaultdict(list)
         super(NewPagesGenerator, self).__init__(*args, **kwargs)
-        self.drafts = []
+        self.ignored_pages = []
 
     def generate_context(self):
         all_pages = []
@@ -73,10 +73,11 @@ class NewPagesGenerator(Generator):
             if not is_valid_content(page, f):
                 continue
 
+            # all pages which status is not "published" will be ignored
             if page.status == "published":
                 all_pages.append(page)
-            elif page.status == "draft":
-                self.drafts.append(page)
+            else:
+                self.ignored_pages.append(page)
 
         self.pages, self.translations = process_translations(all_pages)
 
@@ -97,8 +98,8 @@ class NewPagesGenerator(Generator):
             if cat in pcats:
                 self.pages_categories.append(pcats[cat])
 
-        self._update_context(
-                ('pages', 'pages_categories', 'all_pages_categories',))
+        self._update_context(('pages', 'ignored_pages', 'pages_categories',
+            'all_pages_categories',))
 
 
     def generate_output(self, writer):
@@ -108,10 +109,6 @@ class NewPagesGenerator(Generator):
         for page in chain(self.translations, self.pages):
             writer.write_file(page.save_as, page_template,
                     self.context, page=page,
-                    relative_urls=self.settings.get('RELATIVE_URLS'))
-        for page in self.drafts:
-            writer.write_file('pages/drafts/%s.html' % page.slug, page_template,
-                    self.context, page=page, category=page.category,
                     relative_urls=self.settings.get('RELATIVE_URLS'))
 
         category_template = self.get_template('page_category')
