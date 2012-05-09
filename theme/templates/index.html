@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %} {% endblock %}
+{% block content %}        
+<section id="content" class="body">    
+    {% for page in ignored_pages %}
+    {% if page.title == 'index' %}
+    {{ page.content }}
+    {% endif %}
+    {% endfor %}
+</section>
+{% endblock %}

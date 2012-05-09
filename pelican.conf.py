@@ -175,7 +175,7 @@ PAGE_SAVE_AS = '{category}/{slug}/index.html'
 PAGESCATEGORY_URL = 'category/{slug}/'
 PAGESCATEGORY_SAVE_AS = 'category/{slug}/index.html'
 
-DIRECT_TEMPLATES = ('articles', 'tags', 'archives',)
+DIRECT_TEMPLATES = ('index', 'articles', 'tags', 'archives',)
 PAGINATED_DIRECT_TEMPLATES = ('articles',)
 ARTICLES_SAVE_AS = 'actualites/index.html'
 TAGS_SAVE_AS = 'actualites/tags/index.html'
