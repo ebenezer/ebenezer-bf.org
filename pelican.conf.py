@@ -13,7 +13,6 @@ from pelican.generators import Generator, PagesGenerator, ArticlesGenerator, \
 from pelican.readers import read_file, _METADATA_PROCESSORS
 from pelican.contents import Page, Category, is_valid_content
 from pelican.utils import process_translations
-from mdx_video import VideoExtension
 
 
 _METADATA_PROCESSORS.update({
@@ -141,7 +140,7 @@ class MyPelican(Pelican):
 
 
 PELICAN_CLASS = MyPelican
-MD_EXTENSIONS = ['codehilite', 'extra', VideoExtension({})]
+MD_EXTENSIONS = ['codehilite', 'extra', 'video(youtube_width=700, youtube_height=595)']
 
 AUTHOR = 'Issa Ouedraogo'
 SITENAME = 'Centre Eben-Ezer'
