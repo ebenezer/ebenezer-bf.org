@@ -1,0 +1,3 @@
+[submodule ".dev/submodules/less.js"]
+	path = .dev/submodules/less.js
+	url = git://github.com/cloudhead/less.js.git
