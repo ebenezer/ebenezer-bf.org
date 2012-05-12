@@ -10,6 +10,7 @@ LESSC=./submodules/less.js/bin/lessc
 
     echo "> Concatenate and build js to theme/static/js/all.min.js"
     cat ./static/js/jquery-1.7.1.js \
+        ./submodules/bootstrap/js/bootstrap-dropdown.js \
         ./submodules/galleria/src/galleria.js \
         ./submodules/galleria/src/plugins/flickr/galleria.flickr.js \
         ./static/js/local.js | ./submodules/UglifyJS/bin/uglifyjs \
