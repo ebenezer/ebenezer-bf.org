@@ -1,15 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 import os
-import re
 from operator import attrgetter
 from collections import defaultdict
 from itertools import chain
 
-import markdown
 from pelican import Pelican
-from pelican.generators import Generator, PagesGenerator, ArticlesGenerator, \
-        StaticGenerator, PdfGenerator
+from pelican.generators import Generator, ArticlesGenerator, StaticGenerator, \
+        PdfGenerator
 from pelican.readers import read_file, _METADATA_PROCESSORS
 from pelican.contents import Page, Category, is_valid_content
 from pelican.utils import process_translations
