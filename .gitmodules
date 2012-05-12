@@ -7,3 +7,6 @@
 [submodule ".dev/submodules/pelican"]
 	path = .dev/submodules/pelican
 	url = git://github.com/bbinet/pelican.git
+[submodule ".dev/submodules/galleria"]
+	path = .dev/submodules/galleria
+	url = git://github.com/aino/galleria.git
