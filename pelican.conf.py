@@ -187,5 +187,5 @@ PAGECAT_MAP = [
         ]
 
 
-THEME = './theme/'
+THEME = './.dev/theme/'
 GOOGLE_ANALYTICS = 'UA-31288611-1'
