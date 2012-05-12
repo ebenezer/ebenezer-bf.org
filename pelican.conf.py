@@ -160,7 +160,7 @@ LINKS =  (
 DISPLAY_PAGES_ON_MENU = True
 DEFAULT_PAGINATION = 5
 
-STATIC_PATHS = ['data']
+# STATIC_PATHS = ['data']
 OUTPUT_PATH = '_output/'
 PAGE_DIR = 'pages'
 ARTICLE_DIR = 'news'
