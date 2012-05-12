@@ -10,3 +10,6 @@
 [submodule ".dev/submodules/galleria"]
 	path = .dev/submodules/galleria
 	url = git://github.com/aino/galleria.git
+[submodule ".dev/submodules/UglifyJS"]
+	path = .dev/submodules/UglifyJS
+	url = git://github.com/mishoo/UglifyJS.git
