@@ -4,3 +4,6 @@
 [submodule ".dev/submodules/bootstrap"]
 	path = .dev/submodules/bootstrap
 	url = git://github.com/twitter/bootstrap.git
+[submodule ".dev/submodules/pelican"]
+	path = .dev/submodules/pelican
+	url = git://github.com/bbinet/pelican.git
