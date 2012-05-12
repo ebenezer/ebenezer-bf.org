@@ -13,3 +13,6 @@
 [submodule ".dev/submodules/UglifyJS"]
 	path = .dev/submodules/UglifyJS
 	url = git://github.com/mishoo/UglifyJS.git
+[submodule ".dev/submodules/python-markdown-video"]
+	path = .dev/submodules/python-markdown-video
+	url = git://github.com/Alquimista/python-markdown-video.git
