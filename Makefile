@@ -1,6 +1,7 @@
 
 PELICAN=./buildout/bin/pelican
 PELICANOPTS=None
+GHP_IMPORT=./buildout/bin/ghp-import
 
 BASEDIR=$(PWD)
 INPUTDIR=$(BASEDIR)/
@@ -48,7 +49,7 @@ ssh_upload: $(OUTPUTDIR)/index.html
 	rsync -Cavz -e ssh --delete $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 github: html
-	ghp-import $(OUTPUTDIR)
+	$(GHP_IMPORT) $(OUTPUTDIR)
 	git push origin gh-pages
 
 .PHONY: html help clean ssh_upload github bootstrap
