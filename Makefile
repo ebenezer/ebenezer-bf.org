@@ -1,5 +1,5 @@
 
-PELICAN=pelican
+PELICAN=./buildout/bin/pelican
 PELICANOPTS=None
 
 BASEDIR=$(PWD)
