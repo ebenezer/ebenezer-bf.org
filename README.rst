@@ -9,12 +9,12 @@ html.
 
 .. _`Pelican`: http://pelican.notmyidea.org
 
-Pour installer ce projet il suffit de lancer les commandes suivantes::
+Pour installer ce projet, il suffit de lancer les commandes suivantes::
 
     $ python bootstrap.py
     $ ./buildout/bin/buildout
 
-Ensuite vous pouvez générer le site web (dans le répertoire `_output`)::
+Ensuite vous pouvez générer le site web dans le répertoire `_output`::
 
     $ source ./buildout/bin/activate
     $ make html
