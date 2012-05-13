@@ -6,7 +6,7 @@ LESSC=./submodules/less.js/bin/lessc
 ( cd "${BASEDIR}"
 
     echo "> Concatenate and build less/css to theme/static/css/all.min.css"
-    $LESSC --compress ./swatchmaker.less > ./theme/static/css/all.min.css
+    $LESSC --compress ./swatchmaker.less ./theme/static/css/all.min.css
 
     echo "> Concatenate and build js to theme/static/js/all.min.js"
     cat ./static/js/jquery-1.7.1.js \
