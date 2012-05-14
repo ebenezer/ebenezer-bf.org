@@ -1,6 +1,5 @@
 
 PELICAN=./buildout/bin/pelican
-PELICANOPTS=None
 GHP_IMPORT=./buildout/bin/ghp-import
 
 BASEDIR=$(PWD)
