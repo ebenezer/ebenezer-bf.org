@@ -16,3 +16,6 @@
 [submodule ".dev/submodules/python-markdown-video"]
 	path = .dev/submodules/python-markdown-video
 	url = git://github.com/Alquimista/python-markdown-video.git
+[submodule ".dev/submodules/ghp-import"]
+	path = .dev/submodules/ghp-import
+	url = git://github.com/davisp/ghp-import.git
