@@ -56,3 +56,4 @@ PAGECAT_MAP = [
 
 THEME = './.dev/theme/'
 GOOGLE_ANALYTICS = 'UA-31288611-1'
+DISQUS_SITENAME = 'ebenezer-bf'
