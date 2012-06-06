@@ -95,6 +95,6 @@ place pour aider au succès.
 
   [1]: /centre-scolaire/informations-generales
   [2]: /a-propos/nous-contacter
-  [3]: /static/data/images/lycee_prive_evangelique-158x300.png
-  [4]: /static/data/images/cours_appui_et_soutien-158x300.png
+  [3]: /theme/img/lycee_prive_evangelique-158x300.png
+  [4]: /theme/img/cours_appui_et_soutien-158x300.png
   [5]: /a-propos/dedougou

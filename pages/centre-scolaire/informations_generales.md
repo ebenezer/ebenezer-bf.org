@@ -53,5 +53,5 @@ Les matières concernées:
 - Mathématiques,
 - Physique-Chimie.
 
-  [1]: /static/data/images/lycee_prive_evangelique-158x300.png
-  [2]: /static/data/images/cours_appui_et_soutien-158x300.png
+  [1]: /theme/img/lycee_prive_evangelique-158x300.png
+  [2]: /theme/img/cours_appui_et_soutien-158x300.png
