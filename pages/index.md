@@ -15,4 +15,29 @@ Sa vocation est multiple:
    initiation à l'informatique...
  - Distraire: Projections culturelles, camps de jeunes...
 
+<ul class="thumbnails">
+<li class="span4">
+<a class="thumbnail" href="#">
+<img alt="" src="http://placehold.it/260x180">
+</a>
+</li>
+<li class="span4">
+<a class="thumbnail" href="#">
+<img alt="" src="http://placehold.it/260x180">
+</a>
+</li>
+<li class="span1"></li>
+<li class="span4">
+<a class="thumbnail" href="#">
+<img alt="" src="http://placehold.it/260x180">
+</a>
+</li>
+<li class="span4">
+<a class="thumbnail" href="#">
+<img alt="" src="http://placehold.it/260x180">
+</a>
+</li>
+<li class="span1"></li>
+</ul>
+
   [1]: /a-propos/dedougou
