@@ -1,5 +1,5 @@
-Title: Choix de partenariat
-Sorting: 1
+Title: Partenaires
+Sorting: 3
 
 Choix de partenariat
 --------------------
