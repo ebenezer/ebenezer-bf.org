@@ -49,6 +49,7 @@ PAGECAT_MAP = [
         (u'centre-ebenezer', u'Centre Eben-Ezer'),
         (u'centre-scolaire', u'Centre Scolaire'),
         (u'temple-eternel', u'Temple de l\'Éternel'),
+        (u'en-images', u'En images'),
         (u'a-propos', u'A propos'),
         ]
 
