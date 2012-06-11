@@ -48,7 +48,6 @@ ARCHIVES_SAVE_AS = 'actualites/archives/index.html'
 PAGECAT_MAP = [
         (u'centre-ebenezer', u'Centre Eben-Ezer'),
         (u'centre-scolaire', u'Centre Scolaire'),
-        (u'partenaires', u'Partenaires'),
         (u'temple-eternel', u'Temple de l\'Éternel'),
         (u'a-propos', u'A propos'),
         ]
