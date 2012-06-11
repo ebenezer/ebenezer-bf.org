@@ -1,5 +1,5 @@
 Title: Choix de partenariat
-Sorting: 2
+Sorting: 1
 
 Choix de partenariat
 --------------------
@@ -31,3 +31,18 @@ appellera, nous sommes prêts à y répondre. Il n’y a pas non plus de
 nationalités réservées. De même, toute personne physique ou morale désirant
 mettre ses talents au service de Dieu a la possibilité de le faire ».*
 
+Présentation des partenaires
+----------------------------
+
+![no-figure][1]
+
+Ainsi, comme cette montgolfière lancée par le vent de l'Esprit,
+
+Que chacun inscrive son nom pour qu'elle s'élève jusqu'au plus haut sommet,
+
+Traduction d'une solidarité agissante et d'un partenariat qui ennoblit et
+libère.
+
+Issa!
+
+  [1]: http://farm8.staticflickr.com/7061/7110957145_61908f0fc5_z.jpg
