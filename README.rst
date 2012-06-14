@@ -17,5 +17,9 @@ Pour installer ce projet, il suffit de lancer les commandes suivantes::
 Ensuite vous pouvez générer le site web dans le répertoire `_output`::
 
     $ source ./buildout/bin/activate
-    $ make html
+    (ebenezer-bf.org) $ make html
 
+Pour lancer une regénération du site automatique à chaque modification, vous
+pouvez utiliser la commande suivante::
+
+    (ebenezer-bf.org) $ pelican -o _output/ -s pelican.conf.py -r -d
