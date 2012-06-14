@@ -15,6 +15,8 @@ Sa vocation est multiple:
    initiation à l'informatique...
  - Distraire: Projections culturelles, camps de jeunes...
 
+Découvrez le Centre Eben-Ezer:
+
 <ul class="thumbnails">
 <li class="span4">
 <a class="thumbnail" href="#">
