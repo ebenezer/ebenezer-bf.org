@@ -17,29 +17,17 @@ Sa vocation est multiple:
 
 Découvrez le Centre Eben-Ezer:
 
-<ul class="thumbnails">
-<li class="span4">
-<a class="thumbnail" href="#">
-<img alt="" src="http://placehold.it/260x180">
-</a>
-</li>
-<li class="span4">
-<a class="thumbnail" href="#">
-<img alt="" src="http://placehold.it/260x180">
-</a>
-</li>
+<ul class="thumbnails" markdown="1">
+<li class="span4" markdown="1">[En photos][2]{: class="btn btn-big" style="" }</li>
+<li class="span4" markdown="1">[En vidéo][3]{: class="btn btn-big" style="" }</li>
 <li class="span1"></li>
-<li class="span4">
-<a class="thumbnail" href="#">
-<img alt="" src="http://placehold.it/260x180">
-</a>
-</li>
-<li class="span4">
-<a class="thumbnail" href="#">
-<img alt="" src="http://placehold.it/260x180">
-</a>
-</li>
+<li class="span4" markdown="1">[Actualités][4]{: class="btn btn-big" style="" }</li>
+<li class="span4" markdown="1">[Message][5]{: class="btn btn-big" style="" }</li>
 <li class="span1"></li>
 </ul>
 
   [1]: /a-propos/dedougou
+  [2]: /en-images/photos
+  [3]: /en-images/videos
+  [4]: /actualites
+  [5]: /temple-eternel/message
