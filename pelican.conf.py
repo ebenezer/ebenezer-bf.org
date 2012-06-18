@@ -5,7 +5,8 @@ from mypelican import MyPelican
 
 
 PELICAN_CLASS = MyPelican
-MD_EXTENSIONS = ['codehilite', 'extra', 'video(youtube_width=700, youtube_height=595)']
+MD_EXTENSIONS = ['codehilite', 'extra', 'attr_list',
+    'video(youtube_width=700, youtube_height=595)']
 
 AUTHOR = 'Issa Ouedraogo'
 SITENAME = 'Centre Eben-Ezer'
