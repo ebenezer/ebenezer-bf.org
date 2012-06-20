@@ -13,8 +13,11 @@ LESSC=./submodules/less.js/bin/lessc
         ./submodules/bootstrap/js/bootstrap-dropdown.js \
         ./submodules/galleria/src/galleria.js \
         ./submodules/galleria/src/plugins/flickr/galleria.flickr.js \
-        ./static/js/local.js | ./submodules/UglifyJS/bin/uglifyjs \
+        | ./submodules/UglifyJS/bin/uglifyjs \
         > ./theme/static/js/all.min.js
+
+    echo "> Copy js/local.js to theme/static/js/"
+    cp ./static/js/local.js ./theme/static/js/
 
     echo "> Copy bootstrap/img/ files to theme/static/img/"
     rsync -avz --cvs-exclude ./submodules/bootstrap/img/* ./theme/static/img
