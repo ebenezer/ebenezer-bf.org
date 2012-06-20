@@ -6,8 +6,8 @@ Tags: Centre scolaire, Résultats scolaires
 
 L'année scolaire 2011-2012 a été couronnée de succès pour les Ecoles du Centre.
 
-A l'examen du BEPC, le Lycée a fait un taux de réussite de 78.20%, soit 61 sur
-78.
+A l'examen du BEPC, le Lycée a obtenu un taux de réussite de 78.20%, soit 61
+sur 78.
 
 L'Ecole du Soir: 20% environ avec 16 réussites.
 
