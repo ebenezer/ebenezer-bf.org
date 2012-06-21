@@ -18,8 +18,8 @@ Sa vocation est multiple:
 Découvrez le Centre Eben-Ezer:
 
 <ul class="thumbnails" markdown="1">
-<li class="span4">[En photos][2]{: class="btn btn-big" }</li>
-<li class="span4">[En vidéo][3]{: class="btn btn-big" }</li>
+<li class="span4">[Photos][2]{: class="btn btn-big" }</li>
+<li class="span4">[Vidéo][3]{: class="btn btn-big" }</li>
 <li class="span1"></li>
 <li class="span4">[Actualités][4]{: class="btn btn-big" }</li>
 <li class="span4">[Message][5]{: class="btn btn-big" }</li>
