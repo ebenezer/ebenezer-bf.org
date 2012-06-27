@@ -873,6 +873,7 @@ li{line-height:1.6em;}
 figure{margin:10px;}
 figure img{border:1px solid #ddd;border-radius:4px;box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);line-height:1;padding:5px;}
 figcaption{font-style:italic;text-align:center;color:#666;}
+.btn-big{width:100%;padding:50px 0;font-size:30px;color:#be1e2d;}.btn-big:hover{color:#9d1a26;}
 .article{padding-bottom:20px;padding-right:40px;}
 .content-title{margin-bottom:30px;}
 .well.small{padding:6px 6px 4px;}
@@ -905,3 +906,5 @@ figcaption{font-style:italic;text-align:center;color:#666;}
 .nav>li.active>a,.nav>li.active>a:hover{background-color:#eee;color:#97310e;}
 #logo-ebenezer{margin:20px 8px;}
 div.galleria{width:100%;}
+.gallery{position:relative;}
+.loader{width:200px;height:100px;margin:-50px 0 0 -100px;position:absolute;left:50%;top:50%;color:#fff;text-align:center;z-index:4;display:none;background:#000000 url('../img/loader.gif') no-repeat 50% 25px;opacity:.8;line-height:150px;border-radius:6px;}
