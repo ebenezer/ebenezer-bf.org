@@ -8,49 +8,38 @@ Lycée Privé Évangélique Eben-Ezer
 ![](/theme/img/lycee_prive_evangelique-158x300.png)
 </div>
 
-Un objectif majeur du Centre Eben-Ezer est d'être une structure d’appui à
-l’éducation. Un lycée a ainsi ouvert officiellement en octobre 2008 à
-[Dédougou](/a-propos/dedougou).
-Pour ce faire il vise à:
-
-##### INSTRUIRE
-
-  - Enseignement général (1er et Second cycle) suivant le programme officiel
- 
-##### ÉDUQUER
-
- - Cours de morale et de civisme
- - Enseignement religieux
- - Enseignement de l'art  et de la culture 
- - Discipline
-
-##### FORMER
-
- - Informatique 
- - Multimédia
+Année d'ouverture: 2008 - 2009.
 
 L'établissement met tout en place pour la réussite des élèves: il comprend des
 classes équipées, un terrain spacieux, une bibliothèque, une salle informatique
 et multimédia... 
 
-Cette structure encadrée par ses 10 professeurs a accueilli:
+Cette structure est encadrée par 17 professeurs et voici ses statistiques
+depuis son ouverture:
 
- - 58 élèves en 2008/2009,
- - 85 élèves en 2009/2010,
- - 240 élèves en 2010/2011.
+<table class="table" style="width:70%">
+  <thead>
+    <tr>
+      <th>Année scolaire</th>
+      <th>Nombre d'élèves</th>
+      <th>Taux de succès au BEPC<br/>(classe de 3ème)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>2011/2012</td><td>310</td><td>78%</td></tr>
+    <tr><td>2010/2011</td><td>240</td><td>53%</td></tr>
+    <tr><td>2009/2010</td><td>85</td><td>52%</td></tr>
+    <tr><td>2008/2009</td><td>58</td><td>32%</td></tr>
+  </tbody>
+</table>
 
-### Informations générales
+Les classes ouvertes:
 
-Année d'ouverture: 2008 - 2009
-
-Les Classes ouvertes:
-
-- Premier cycle (enseignement général):
+ - Premier cycle (enseignement général):
     - 6eme,
     - 5eme,
     - 4eme,
     - 3eme.
-- Second cycle:
-    - Seconde A4,
-    - Première A4,
-    - Seconde C.
+ - Second cycle:
+    - Seconde C,
+    - Première C.
