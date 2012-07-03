@@ -1,7 +1,7 @@
-Title: Formations
+Title: Rencontres
 Sorting: 4
 
-Formations
+Rencontres
 ----------
 
 Le Centre Eben-Ezer, au vu de sa situation géographique et des infrastructures
@@ -17,10 +17,7 @@ Organisés en collaboration avec la Mairie de Dédougou, le premier concours
 d'excellence a concerné tous les établissements primaires et secondaires de la
 ville.
 
-![Ici les candidats retenus, après leur formation en photographie][1]
+![Ici les candidats retenus, après leur formation en photographie](http://farm8.staticflickr.com/7088/6964886772_68b81a4b6b.jpg)
 
-![Une formation en dessin pour la deuxième édition][2] 
+![Une formation en dessin pour la deuxième édition](http://farm8.staticflickr.com/7073/7110961647_ce9660082d_z.jpg)
 
-
-  [1]: http://farm8.staticflickr.com/7088/6964886772_68b81a4b6b.jpg
-  [2]: http://farm8.staticflickr.com/7073/7110961647_ce9660082d_z.jpg
