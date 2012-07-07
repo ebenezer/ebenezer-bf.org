@@ -35,8 +35,8 @@ L'évolution des effectifs est le témoignage de l'intérêt porté à ce cours:
     </tr>
   </thead>
   <tbody>
-    <tr><td>2011/2012</td><td>58</td><td>3 sur 46</td></tr>
-    <tr><td>2010/2011</td><td>116</td><td>19 sur 91</td></tr>
+    <tr><td>2011/2012</td><td>116</td><td>19 sur 91</td></tr>
+    <tr><td>2010/2011</td><td>58</td><td>3 sur 46</td></tr>
   </tbody>
 </table>
 
